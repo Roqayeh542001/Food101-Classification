@@ -94,9 +94,9 @@ Two transfer learning strategies were used:
 
 FoodNet combines feature vectors extracted from three pretrained models.
 
-> AlexNet  -> 4096 features
-> GoogLeNet ->1024 features
-> ResNet50 ->2048 features
+- AlexNet  -> 4096 features
+- GoogLeNet ->1024 features
+- ResNet50 ->2048 features
 
 Concatenate
 
