@@ -48,12 +48,24 @@ Food101-Classification/
 └── README.md
 ```
 
+**Note:**
 After running the training scripts, the following files will be generated automatically:
-
+```text
 results/
 ├── figures/
 ├── history/
+├── predictions/
+├── reports/
+├── model_test_metrics.csv
 └── model_comparison.csv
+
+checkpoints/
+├── alexnet_best.pth
+├── convenext_best.pth
+├── foodnet_best.pth
+├── googlenet_best.pth
+└── resnet50_best.pth
+```
 
 Models
 | Model |	Description |
