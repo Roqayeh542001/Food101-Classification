@@ -118,37 +118,30 @@ Results
 
 Example comparison:
 
-Model	Best Accuracy
-AlexNet	90.27%
-GoogLeNet	77.20%
-ResNet50	96.40%
-ConvNeXt	98.40%
-FoodNet	96.13%
+| Model |	Best Accuracy |
+|-------|---------------|
+| AlexNet	| 90.27% |
+| GoogLeNet	| 77.20% |
+| ResNet50 |	96.40% |
+| ConvNeXt	| 98.40% |
+| FoodNet |	96.13% |
 
 
-Requirements
-Python 3.14.2
-
-PyTorch
-
-Torchvision
-
-Matplotlib
-
-Pandas
-
-Scikit-learn
-
-tqdm
-
-Pillow
-
-OpenCV
+#### Requirements
+- Python 3.14.2
+- PyTorch
+- Torchvision
+- Matplotlib
+- Pandas
+- Scikit-learn
+- tqdm
+- Pillow
+- OpenCV
 
 Install:
-
 pip install -r requirements.txt
-Run
+
+#### Run
 
 Train AlexNet
 
