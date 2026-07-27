@@ -83,11 +83,15 @@ All pretrained models use ImageNet pretrained weights.
 Two transfer learning strategies were used:
 
 1. Feature Extraction
+   
    Freeze all backbone layers
+   
    Train only the final classifier
 
-2. Fine-Tuning
+3. Fine-Tuning
+   
    Unfreeze the last stage of ConvNeXt
+   
    Train the classifier together with the last feature extraction stage
 
 #### FoodNet Architecture
@@ -121,16 +125,16 @@ Classifier:
 3 classes
 Evaluation
 
-The following metrics are reported:
+#### The following metrics are reported:
 
-Accuracy
-Loss
-Confusion Matrix
-Classification Report
-Prediction Confidence
-Results
+- Accuracy
+- Loss
+- Confusion Matrix
+- Classification Report
+- Prediction Confidence
+- Results
 
-Example comparison:
+#### Example comparison:
 
 | Model |	Best Accuracy |
 |-------|---------------|
@@ -157,35 +161,35 @@ pip install -r requirements.txt
 
 #### Run
 
-Train AlexNet
+**Train AlexNet**
 
 python train/train_alexnet.py
 
-Train GoogLeNet
+**Train GoogLeNet**
 
 python train/train_googlenet.py
 
-Train ResNet50
+**Train ResNet50**
 
 python train/train_resnet50.py
 
-Train ConvNeXt
+**Train ConvNeXt**
 
 python train/train_convnext.py
 
-Train FoodNet
+**Train FoodNet**
 
 python train/train_foodnet.py
 
-Evaluate
+**Evaluate**
 
 python evaluate/test_metrics.py
 
-Predict Real Images
+**Predict Real Images**
 
 python evaluate/predict_real_image.py
 Author
 
-Roqayeh
+**Roqayeh**
 
-Deep Learning Course Project
+**Deep Learning Course Project**
