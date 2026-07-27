@@ -34,8 +34,9 @@ Food101
 - Steak
 - Sushi
 
-Project Structure
-CI_Project/
+#### Project Structure
+```text
+Food101-Classification/
 │
 ├── checkpoints/
 ├── data/
@@ -45,6 +46,7 @@ CI_Project/
 ├── utils/
 ├── config.py
 └── README.md
+```
 
 After running the training scripts, the following files will be generated automatically:
 
