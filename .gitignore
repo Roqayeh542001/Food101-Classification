@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+checkpoints/
+results/
+
+data/food-101/
+
+.vscode/
+
+.env
