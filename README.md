@@ -41,11 +41,17 @@ CI_Project/
 ├── data/
 ├── evaluate/
 ├── models/
-├── results/
 ├── train/
 ├── utils/
 ├── config.py
 └── README.md
+
+After running the training scripts, the following files will be generated automatically:
+
+results/
+├── figures/
+├── history/
+└── model_comparison.csv
 
 Models
 Model	Description
