@@ -1,6 +1,6 @@
 # Food Image Classification using Deep Learning
 
-### Overview
+## Overview
 
 This project compares several deep convolutional neural networks for food image classification on the Food101 dataset.
 
@@ -24,17 +24,17 @@ The project also compares these models in terms of:
 - Real Image Prediction
 - Dataset
 
-#### Dataset:
+### Dataset:
 
 Food101
 
-#### Classes used in this project:
+### Classes used in this project:
 
 - Pizza
 - Steak
 - Sushi
 
-#### Project Structure
+### Project Structure
 ```text
 Food101-Classification/
 │
@@ -67,7 +67,8 @@ checkpoints/
 └── resnet50_best.pth
 ```
 
-Models
+### Models
+
 | Model |	Description |
 |-------|-------------|
 | AlexNet |	Classical CNN architecture |
@@ -76,7 +77,7 @@ Models
 | ConvNeXt-Tiny |	Modern CNN architecture |
 | FoodNet |	Ensemble model using AlexNet + GoogLeNet + ResNet50 features |
 
-#### Training Strategy
+### Training Strategy
 
 All pretrained models use ImageNet pretrained weights.
 
@@ -94,7 +95,7 @@ Two transfer learning strategies were used:
    
    Train the classifier together with the last feature extraction stage
 
-#### FoodNet Architecture
+### FoodNet Architecture
 
 FoodNet combines feature vectors extracted from three pretrained models.
 
@@ -125,7 +126,7 @@ Classifier:
 3 classes
 Evaluation
 
-#### The following metrics are reported:
+### The following metrics are reported:
 
 - Accuracy
 - Loss
@@ -134,7 +135,7 @@ Evaluation
 - Prediction Confidence
 - Results
 
-#### Example comparison:
+### Example comparison:
 
 | Model |	Best Accuracy |
 |-------|---------------|
@@ -145,7 +146,7 @@ Evaluation
 | FoodNet |	96.13% |
 
 
-#### Requirements
+### Requirements
 - Python 3.14.2
 - PyTorch
 - Torchvision
@@ -159,7 +160,7 @@ Evaluation
 Install:
 pip install -r requirements.txt
 
-#### Run
+### Run
 
 **Train AlexNet**
 
