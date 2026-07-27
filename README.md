@@ -54,13 +54,15 @@ results/
 └── model_comparison.csv
 
 Models
-Model	Description
-AlexNet	Classical CNN architecture
-GoogLeNet	Inception architecture
-ResNet50	Residual Network
-ConvNeXt-Tiny	Modern CNN architecture
-FoodNet	Ensemble model using AlexNet + GoogLeNet + ResNet50 features
-Training Strategy
+| Model |	Description |
+|-------|-------------|
+| AlexNet |	Classical CNN architecture |
+| GoogLeNet	| Inception architecture |
+| ResNet50	| Residual Network |
+| ConvNeXt-Tiny |	Modern CNN architecture |
+| FoodNet |	Ensemble model using AlexNet + GoogLeNet + ResNet50 features |
+
+#### Training Strategy
 
 All pretrained models use ImageNet pretrained weights.
 
