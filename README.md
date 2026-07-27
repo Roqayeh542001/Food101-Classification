@@ -168,7 +168,7 @@ python evaluate/test_metrics.py
 
 Predict Real Images
 
-python predict/predict_real_image.py
+python evaluate/predict_real_image.py
 Author
 
 Roqayeh
