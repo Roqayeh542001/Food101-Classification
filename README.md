@@ -1,16 +1,16 @@
-Food Image Classification using Deep Learning
+**Food Image Classification using Deep Learning**
 
-Overview
+**Overview**
 
 This project compares several deep convolutional neural networks for food image classification on the Food101 dataset.
 
 The following architectures are implemented and evaluated:
 
-AlexNet
-GoogLeNet
-ResNet50
-ConvNeXt-Tiny
-FoodNet (Ensemble Model)
+*AlexNet
+*GoogLeNet
+*ResNet50
+*ConvNeXt-Tiny
+*FoodNet (Ensemble Model)
 
 The project also compares these models in terms of:
 
