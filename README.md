@@ -82,21 +82,21 @@ All pretrained models use ImageNet pretrained weights.
 
 Two transfer learning strategies were used:
 
-Feature Extraction
-Freeze all backbone layers
-Train only the final classifier
+1. Feature Extraction
+   Freeze all backbone layers
+   Train only the final classifier
 
-Fine-Tuning
-Unfreeze the last stage of ConvNeXt
-Train the classifier together with the last feature extraction stage
+2. Fine-Tuning
+   Unfreeze the last stage of ConvNeXt
+   Train the classifier together with the last feature extraction stage
 
-FoodNet Architecture
+#### FoodNet Architecture
 
 FoodNet combines feature vectors extracted from three pretrained models.
 
-AlexNet  -> 4096 features
-GoogLeNet ->1024 features
-ResNet50 ->2048 features
+> AlexNet  -> 4096 features
+> GoogLeNet ->1024 features
+> ResNet50 ->2048 features
 
 Concatenate
 
