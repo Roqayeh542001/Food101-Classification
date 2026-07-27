@@ -119,7 +119,7 @@ FoodNet	96.13%
 
 
 Requirements
-Python 3.12+
+Python 3.14.2
 
 PyTorch
 
